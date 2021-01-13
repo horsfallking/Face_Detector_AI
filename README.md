@@ -1,2 +1,2 @@
 # Face_Detector_AI
-Face detector AI built in pytho.
+Face detector AI built in python.
