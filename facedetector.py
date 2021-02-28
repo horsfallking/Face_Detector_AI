@@ -16,7 +16,7 @@ while True:
     for (x, y, w, h,) in face_Coordinates:
       cv2.rectangle(frame, (x, y), (x+w, y+h), (randrange(256),randrange(256), randrange(256), 0), 2)
 
-    cv2.imshow('Clever Programmer face Detector', frame)
+    cv2.imshow('Detector Numero Uno ', frame)
     key = cv2.waitKey(1)
     
     if key == 81 or key == 113:
